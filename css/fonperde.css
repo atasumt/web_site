@@ -1,0 +1,1175 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* -------------------------------- */
+.container{
+    height: 100%;
+}
+/* -------------------------------- */
+.container .navbar{
+    width: 100%;
+    height: 80%;
+    background-color: whitesmoke
+}
+/* -------------------------------- */
+.navbar .logo{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+/* -------------------------------- */
+.navbar .logo a{
+
+    text-decoration: none;
+    font-size: 200%;
+    font-family: Mea Culpa;
+    color: black;
+
+}
+/* -------------------------------- */
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+/* -------------------------------- */
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    margin-top: 5px;
+}
+/* -------------------------------- */
+.navbar ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+/* -------------------------------- */
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  .navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color:gray;
+    border-radius:29px;
+}
+/* --------------------------------------- */
+.urunbaslık{
+    margin-top: 1%;
+    margin-left: 3%;
+    font-size: 35px;
+    font-family:Roboto;
+}
+.uruncontainer ul {
+    float: right;
+    margin-right: 20px;
+}
+.uruncontainer ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    margin-top: -50px;
+    
+}
+.uruncontainer ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+}
+/* --------------------------------------- */
+/* --------------ÜRÜN-1------------------- */
+/* --------------------------------------- */
+.box-container{
+    background:white;
+    margin-left: 0.5%;
+    margin-top: 1%;
+}
+.box-container .box{
+    float: left;
+    margin-top: 30px;
+    margin-left: 22px;
+    max-height: 490px;
+    max-width: 600px;
+    display: flex; 
+     align-items: center; 
+    background:whitesmoke;
+    width: 50%;
+    box-shadow: 0 .3rem .5rem #3337;
+}
+.box-container .box .image-container{
+    text-align: center;
+    padding:1rem 2rem;
+}
+.box-container .box .image-container .big-image{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image img.active,
+.box-container .box .image-container .small-image img:hover{
+    background:#ccc;
+}
+.box-container .box .content{
+    padding:1rem;
+}
+.box-container .box .content .title{
+    margin-left: -15px;
+    margin-top: -110px;
+    font-size: 2.15rem;
+    color:#333;
+    text-transform: uppercase;
+}
+.box-container .box .content p{
+    padding:1rem 0;
+    font-size: 1.5rem;
+    color:#666;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-2----------------------- */
+/* --------------------------------------- */
+
+.box-container .box2 .image-container .big-image2{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image2 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image2{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image2 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image2 img.active2,
+.box-container .box .image-container .small-image2 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-3----------------------- */
+/* --------------------------------------- */
+
+.box-container .box2 .image-container .big-image3{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image3 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image3{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image3 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image3 img.active3,
+.box-container .box .image-container .small-image3 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-4----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image4{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image4 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image4{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image4 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image4 img.active4,
+.box-container .box .image-container .small-image4 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-5----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image5{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image5 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image5{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image5 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image5 img.active5,
+.box-container .box .image-container .small-image5 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-6----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image6{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image6 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image6{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image6 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image6 img.active6,
+.box-container .box .image-container .small-image6 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-7----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image7{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image7 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image7{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image7 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image7 img.active7,
+.box-container .box .image-container .small-image7 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-8----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image8{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image8 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image8{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image8 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image8 img.active8,
+.box-container .box .image-container .small-image8 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-9----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image9{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image9 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image9{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image9 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image9 img.active9,
+.box-container .box .image-container .small-image9 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-10----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image10{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image10 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image10{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image10 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image10 img.active10,
+.box-container .box .image-container .small-image10 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-11----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image11{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image11 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image11{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image11 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image11 img.active11,
+.box-container .box .image-container .small-image11 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-12----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image12{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image12 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image12{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image12 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image12 img.active12,
+.box-container .box .image-container .small-image12 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-13----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image13{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image13 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image13{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image13 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image13 img.active13,
+.box-container .box .image-container .small-image13 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-14----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image14{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image14 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image14{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image14 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image14 img.active14,
+.box-container .box .image-container .small-image14 img:hover{
+    background:#ccc;
+}
+/* --------------------------------------- */
+/* ----------ÜRÜN-15----------------------- */
+/* --------------------------------------- */
+
+.box-container .box .image-container .big-image15{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image15 img{
+    height:20rem;
+}
+.box-container .box .image-container .small-image15{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image15 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.5rem solid #fff;
+    padding:0.2rem;
+    background: #eee;
+    margin:1rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.box-container .box .image-container .small-image15 img.active15,
+.box-container .box .image-container .small-image15 img:hover{
+    background:#ccc;
+}
+
+/* ------------------BÜYÜTEÇ-------------------------- */
+.glass {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    cursor: crosshair;
+    
+    /* Multiple box shadows to achieve the glass effect */
+    box-shadow:
+      0 0 0 7px rgba(255, 255, 255, 0.85),
+      0 0 7px 7px rgba(0, 0, 0, 0.25), 
+      inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    
+    /* hide the glass by default */
+    display: none;
+  }
+  /* -------------------------------------- */
+.footer {
+
+    left: 0;
+    margin-top: 70%;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+  }
+  /* -------------------------------------- */
+  .sosyalbutonlar{
+    margin-left: -20%;
+      margin-top: 50px;
+      display: inline-block;
+      position: relative;
+      left: 200px;
+    margin-bottom: 50px;
+        
+      
+      }
+      
+  .sosyalbutonlar a  {
+    background:#a1a1a1;
+      text-decoration: none;
+      color: #FFF;
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      border-radius: 10px;
+      margin-right: 20px;
+      font-size: 30px;
+      overflow: hidden;
+      position: relative;
+      line-height: 60px;
+      text-align: center;
+    }
+      
+  .sosyalbutonlar a{  
+     transition: transform 0.4s linear 0s, 
+       border-top-left-radius 0.1s linear 0s, 
+       border-top-right-radius 0.1s linear 0.1s, 
+       border-bottom-right-radius 0.1s linear 0.2s, 
+       border-bottom-left-radius 0.1s linear 0.3s;
+       
+  }
+  
+  .sosyalbutonlar .facebook:hover {
+        background-color: #3b5998;
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+  }
+  
+    .sosyalbutonlar .twitter:hover   {
+        background-color: #00aced;
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+  }
+    
+   .sosyalbutonlar .google-plus:hover   {
+        background-color: #dd4b39;
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+  }
+  
+   .sosyalbutonlar .instagram:hover   {
+        background-color: #bc2a8d;
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+  }
+  
+   .sosyalbutonlar .linkedin:hover   {
+        background-color: #00aced;
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+  }
+  
+   .sosyalbutonlar .youtube:hover   {
+         background-color: #bb0000;
+        transform: rotate(360deg);
+        border-radius: 50%;	 
+  }
+  /* -------------------------------------- */
+  .footer .footerbaslık{
+    font-size: 125%;
+    margin-top: 1300px;
+    font-family: Mea Culpa;
+  }
+  /* -------------------------------------- */
+  .footer .footermenu ul li a{
+    text-decoration: none;
+    font-family: Roboto;
+    display: inline-block;
+    color: black;
+    
+  }
+  /* -------------------------------------------- */
+  .navbar ul li a.active,
+  .navbar ul li a:hover{
+      background-color:gray;
+      border-radius:29px;
+  }
+   /*--------- RESPONSİVE TASARIM KODLARI ----------*/
+
+@media only screen and (max-width : 700px){
+
+
+    .navbar .logo{
+      display: inline-block;
+      margin-left: 7px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+  }
+  /* -------------------------------- */
+  .navbar .logo a{
+  
+      text-decoration: none;
+      font-size: 125%;
+      font-family: Mea Culpa;
+      color: black;
+  
+  }
+  /* -------------------------------- */
+  .navbar ul {
+      float: right;
+      margin-right: 20px;
+  }
+  /* -------------------------------- */
+  .navbar ul li{
+      list-style: none;
+      display: inline-block;
+      margin: 0 3px;
+      line-height: 80px;
+      margin-top: -1px;
+  }
+  /* -------------------------------- */
+  .navbar ul li a{
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-size: 10px;
+      padding: 4px 0.5px;
+      font-family: Roboto;
+  }
+  /* -------------------------------- */
+  .urunbaslık{
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 20px;
+    font-family:Roboto;
+}
+/* -------------------------------- */
+.uruncontainer ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+    margin-top: -20px;
+}
+/* -------------------------------- */
+.uruncontainer ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 6px 4px;
+    font-family: Roboto;
+    
+}
+
+
+/* -------------------------------- */
+.box-container .box{
+    float: left;
+    margin-top: 30px;
+    margin-left: 1px;
+    max-height: 490px;
+    max-width: 500px;
+    display: flex; 
+     align-items: center; 
+    background:whitesmoke;
+    width: 50%;
+    box-shadow: 0 .3rem .5rem #3337;
+}
+.box-container .box .image-container{
+    text-align: center;
+    padding:0.5rem 0.5rem;
+}
+.box-container .box .image-container .big-image{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:1rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.box-container .box .content{
+    padding:1rem;
+}
+.box-container .box .content .title{
+    margin-left: 10px;
+    margin-top: -20px;
+    font-size: 1rem;
+    color:#333;
+    text-transform: uppercase;
+}
+.box-container .box .content p{
+    margin-left: 20px;
+    padding:1rem 0;
+    font-size: 1rem;
+    color:#666;
+}
+
+/* ---------------------ÜRÜN2--------------------------------- */
+
+.box-container .box2 .image-container .big-image2{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image2 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image2{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image2 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* ----------------------ÜRÜN3------------------------------- */
+
+.box-container .box2 .image-container .big-image3{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image3 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image3{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image3 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+/* ---------------------ÜRÜN4------------------------------- */
+
+.box-container .box2 .image-container .big-image4{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image4 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image4{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image4 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* ----------------------ÜRÜN5------------------------------ */
+
+.box-container .box2 .image-container .big-image5{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image5 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image5{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image5 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* ----------------------ÜRÜN6----------------------------- */
+
+.box-container .box2 .image-container .big-image6{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image6 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image6{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image6 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* -----------------------ÜRÜN7----------------------------- */
+
+.box-container .box2 .image-container .big-image7{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image7 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image7{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image7 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* -----------------------ÜRÜN8---------------------------- */
+
+.box-container .box2 .image-container .big-image8{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image8 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image8{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image8 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* -----------------------ÜRÜN9---------------------------- */
+
+.box-container .box2 .image-container .big-image9{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image9 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image9{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image9 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* ------------------------ÜRÜN10--------------------------- */
+
+.box-container .box2 .image-container .big-image10{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image10 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image10{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image10 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* ----------------------ÜRÜN11----------------------------- */
+
+.box-container .box2 .image-container .big-image11{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image11 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image11{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image11 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* --------------------------ÜRÜN12------------------------ */
+
+.box-container .box2 .image-container .big-image12{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image12 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image12{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image12 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* -----------------------ÜRÜN13---------------------------- */
+
+.box-container .box2 .image-container .big-image13{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image13 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image13{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image13 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* ------------------------ÜRÜN14-------------------------- */
+
+.box-container .box2 .image-container .big-image14{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image14 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image14{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image14 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* --------------------------ÜRÜN15-------------------------- */
+
+.box-container .box2 .image-container .big-image15{
+    box-shadow: 0 .3rem .3rem #3337;
+    border:.0.5rem solid #fff;
+    padding:0.5rem 0.5rem;
+    background: #eee;
+}
+.box-container .box .image-container .big-image15 img{
+    height:15rem;
+    width: 10rem;
+}
+.box-container .box .image-container .small-image15{
+    padding:0.1rem 0;
+}
+.box-container .box .image-container .small-image15 img{
+    box-shadow: 0 .3rem .5rem #3337;
+    border:.3rem solid #fff;
+    padding:0.1rem;
+    background: #eee;
+    margin:0.75rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+/* -------------------------------- */
+.footer {
+    left: 0;
+    margin-top: 1255%;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+  }
+  /* -------------------------------------- */
+  .sosyalbutonlar{
+    margin-left: -100%;
+      margin-top: 50px;
+      display: inline-block;
+      position: relative;
+      left: 200px;
+    margin-bottom: 50px;
+      }
+      /* -------------------------------- */
+  
+  
+
+
+
+
+
+}
